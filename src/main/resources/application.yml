@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sakila?useSSL=false
+    username: "testUser"
+    password: "123"
+  jpa:
+    database: MYSQL
+
+server:
+  port: 8080
