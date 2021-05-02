@@ -82,7 +82,6 @@ public class CustomerControllerTest {
                 .andExpect((jsonPath("$.lastName",is(customer.getLastName()))));
     }
     @Test
-    @Disabled
     void shouldCreateCustomer() throws Exception{
         objectMapper =new ObjectMapper();
         Customer customer= customers.get(0);
